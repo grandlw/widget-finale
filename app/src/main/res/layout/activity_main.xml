@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center_horizontal" android:padding="28dp" android:background="#090E18">
+<TextView android:id="@+id/player" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#9AA7BD" android:textSize="17sp" android:textStyle="bold"/>
+<TextView android:id="@+id/badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="✦" android:textColor="#65E7D1" android:textSize="82sp"/>
+<TextView android:id="@+id/rank" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#F5F7FB" android:textSize="36sp" android:textStyle="bold"/>
+<TextView android:id="@+id/lp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#65E7D1" android:textSize="28sp" android:textStyle="bold"/>
+<TextView android:id="@+id/record" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:textColor="#C8D0DE" android:textSize="18sp"/>
+<TextView android:id="@+id/delta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:padding="12dp" android:background="@drawable/pill_bg" android:textColor="#65E7D1" android:textSize="20sp" android:textStyle="bold"/>
+<TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:textColor="#77849A" android:textSize="13sp"/>
+<Button android:id="@+id/refresh" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginTop="22dp" android:text="ŞİMDİ YENİLE" android:textStyle="bold"/>
+</LinearLayout>
